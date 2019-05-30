@@ -11,5 +11,5 @@ For rapid setup of environment the following sources has been used:
 install it before you continue.    
   To check the model, you will only have to start the .launch file using the
 following command:   
-$ roslaunch gazebo_ros willowgarage_world.launch
+$ roslaunch gazebo_ros racetrack.launch
 
