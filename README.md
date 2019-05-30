@@ -9,8 +9,13 @@ UCF HEC404 Lab: A deep reinforcement learning platform for self driving robots
  2. gazebo_worlds package. If you do not have the package,
 install it before you continue.    
 ## Simulation of real environment:
-Step 1: Install gazebo_worlds package.   
-Step 2: For checking the model, you will only have to start the .launch file using the
+The rosdep command line too enables you to easily install system dependencies for the source you want
+to compile and is required to run some core components in ROS.   
+$ sudo rosdep init
+$ rosdep update
+
+Install gazebo_worlds package.   
+For checking the model, you will only have to start the .launch file using the
 following command:     
 
 $ roslaunch gazebo_ros racetrack.launch
