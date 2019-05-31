@@ -30,18 +30,18 @@ $ roslaunch gazebo_ros racetrack.launch
 
 ## Simulation 1 [Keyboard Control]:   
 
-Terminal 1:  
+Terminal 1:      
 roslaunch racecar_gazebo racecar.launch   
 
-Terminal 2:   
+Terminal 2:        
 roslaunch console keyboard_teleop.launch  
 
-## Simulation 2 [WallFollowing]:
+## Simulation 2 [WallFollowing]:    
 
-Terminal 1: 
+Terminal 1:      
 roslaunch racecar_gazebo racecar_simplerun.launch 
 
-Terminal 2: 
+Terminal 2:      
 roslaunch simulator simple_run.launch 
 
 ## Simulation 2 [SLAM]: 
