@@ -6,7 +6,7 @@ UCF HEC404 Lab: A deep reinforcement learning platform for self driving robots
 ## Sources:
   For rapid setup of environment the following sources has been used:   
  1. [AWS-Deep Racer](https://github.com/aws-robotics/aws-robomaker-sample-application-deepracer)   
- 2. gazebo_worlds package. If you do not have the package,
+ 2. [Univerisity of Virginia](https://github.com/linklab-uva/f1tenth_gtc_tutorial#1-install-robot-operating-system-ros)
 install it before you continue.    
 ## Simulation of real environment:
 The rosdep command line too enables you to easily install system dependencies for the source you want
