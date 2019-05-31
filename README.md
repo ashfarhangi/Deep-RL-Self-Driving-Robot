@@ -14,9 +14,35 @@ to compile and is required to run some core components in ROS.
 $ sudo rosdep init
 $ rosdep update
 
+Add this changes to ~/.bashrc file:
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export ROS_MASTER_URI=http://192.168.0.151:11311
+export ROS_IP=192.168.0.151
+source ~/catkin_ws/devel/setup.bash
+
+
 Install gazebo_worlds package.   
 For checking the model, you will only have to start the .launch file using the
 following command:     
 
 $ roslaunch gazebo_ros racetrack.launch
 
+## Simulation 1 [Keyboard Control]:   
+
+Terminal 1:  
+roslaunch racecar_gazebo racecar.launch   
+
+Terminal 2:   
+roslaunch console keyboard_teleop.launch  
+
+## Simulation 2 [WallFollowing]:
+
+Terminal 1: 
+roslaunch racecar_gazebo racecar_simplerun.launch 
+
+Terminal 2: 
+roslaunch simulator simple_run.launch 
+
+## Simulation 2 [SLAM]: 
+With the use of Hector Mapping  
