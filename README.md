@@ -36,7 +36,7 @@ roslaunch racecar_gazebo racecar.launch
 Terminal 2:        
 roslaunch console keyboard_teleop.launch  
 
-## Simulation 2 [WallFollowing]:    
+## Simulation 2 [Wall Following & SLAM]:    
 
 Terminal 1:      
 roslaunch racecar_gazebo racecar_simplerun.launch 
@@ -53,5 +53,16 @@ roslaunch console mapping.launch
 Terminal 5:       
 rosrun map_server map_saver -f <name_for_your_map>     
 
-## Simulation 2 [SLAM]: 
-With the use of Hector Mapping  
+## Simulation 3 [Planner]:    
+With the use of Hector Mapping we can utilize the gathered map data from Lidar. And plan the a short set of paths for the robot.    
+Terminal 1:      
+roslaunch racecar_gazebo racecar.launch     
+Terminal 2:   
+roslaunch platform navigation.launch     
+Terminal 3:   
+roslaunch console navigation.launch    
+
+
+
+
+
