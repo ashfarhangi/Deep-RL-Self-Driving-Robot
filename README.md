@@ -50,7 +50,7 @@ roslaunch platform mapping.launch
 Terminal 4:      
 roslaunch console mapping.launch         
 
-Terminal 4:       
+Terminal 5:       
 rosrun map_server map_saver -f <name_for_your_map>     
 
 ## Simulation 2 [SLAM]: 
