@@ -41,8 +41,17 @@ roslaunch console keyboard_teleop.launch
 Terminal 1:      
 roslaunch racecar_gazebo racecar_simplerun.launch 
 
-Terminal 2:      
-roslaunch simulator simple_run.launch 
+Terminal 2:        
+roslaunch simulator simple_run.launch   
+
+Terminal 3:    
+roslaunch platform mapping.launch    
+
+Terminal 4:      
+roslaunch console mapping.launch         
+
+Terminal 4:       
+rosrun map_server map_saver -f <name_for_your_map>     
 
 ## Simulation 2 [SLAM]: 
 With the use of Hector Mapping  
