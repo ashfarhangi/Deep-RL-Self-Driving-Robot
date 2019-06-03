@@ -10,7 +10,8 @@ UCF HEC404 Lab: A deep reinforcement learning platform for self driving robots
  
 ## Simulation of real environment:
 
-![](Demo-Lab.gif)
+![](Demo-Lab.gif)     
+
 The rosdep command line too enables you to easily install system dependencies for the source you want
 to compile and is required to run some core components in ROS.   
 $ sudo rosdep init
