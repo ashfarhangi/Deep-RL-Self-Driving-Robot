@@ -1,0 +1,43 @@
+~/.bashrc file
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+# export ROS_MASTER_URI=http://192.168.0.150:11311
+export ROS_MASTER_URI=http://192.168.0.151:11311
+export ROS_IP=192.168.0.151
+#source /home/f1tenth/catkin_ws/src/ashkan_sim/catkin_ws/devel/setup.bash
+#source /home/f1tenth/catkin_ws/src/ashkan_sim/catkin_ws/devel/setup.bash
+source /home/f1tenth/ashkan_ws/devel/setup.bash
+
+KeyBoard:
+Terminla 1:
+roslaunch racecar_gazebo racecar.launch
+
+Termianl 2:
+roslaunch console keyboard_teleop.launch
+
+WallFollowing:
+roslaunch racecar_gazebo racecar_simplerun.launch
+
+roslaunch simulator simple_run.launch
+
+SLAM:
+With the use of Hector Mapping
+Custom Map:
+/home/f1tenth/ashkan_ws/src/f1tenth_gtc_tutorial/src/f1tenth/virtual/dependencies/racecar_gazebo
+Linux:
+cat .bash_history | grep install
+cp -r . ~/ashkan_ws/src/DD #copy first file . (all to second one
+cat .bash_history | grep screen
+rostopic list #See all the topics
+roscd race #get into folder directly
+subl .
+
+Add this after each python created so that its executed
+chmod +x simulation_connection.py
+cat .bashrc | less
+
+rospack list | grep /home/f1tenth/
+catkin_make
+
+cat package.xml | less
+git remote -v

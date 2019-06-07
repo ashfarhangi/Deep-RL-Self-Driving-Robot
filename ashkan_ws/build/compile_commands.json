@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/build/f1tenth/virtual/simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"simulator\\\" -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++0x    -o CMakeFiles/follow_the_gap.dir/nodes/follow_the_gap/follow_the_gap.cpp.o -c /home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/follow_the_gap.cpp",
+  "file": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/follow_the_gap.cpp"
+},
+{
+  "directory": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/build/f1tenth/virtual/simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"simulator\\\" -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++0x    -o CMakeFiles/follow_the_gap.dir/nodes/follow_the_gap/obstacle.cpp.o -c /home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/obstacle.cpp",
+  "file": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/obstacle.cpp"
+},
+{
+  "directory": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/build/f1tenth/virtual/simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"simulator\\\" -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++0x    -o CMakeFiles/follow_the_gap.dir/nodes/follow_the_gap/gap.cpp.o -c /home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/gap.cpp",
+  "file": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/gap.cpp"
+},
+{
+  "directory": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/build/f1tenth/virtual/simulator",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"simulator\\\" -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++0x    -o CMakeFiles/follow_the_gap.dir/nodes/follow_the_gap/corner.cpp.o -c /home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/corner.cpp",
+  "file": "/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src/f1tenth/virtual/simulator/nodes/follow_the_gap/corner.cpp"
+}
+]

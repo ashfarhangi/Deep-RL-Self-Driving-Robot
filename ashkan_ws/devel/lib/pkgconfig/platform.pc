@@ -1,0 +1,8 @@
+prefix=/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel
+
+Name: platform
+Description: Description of platform
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/lib 
+Requires: rospy sensor_msgs std_msgs geometry_msgs

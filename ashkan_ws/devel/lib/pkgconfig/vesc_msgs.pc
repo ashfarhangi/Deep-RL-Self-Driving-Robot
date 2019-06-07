@@ -1,0 +1,8 @@
+prefix=/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel
+
+Name: vesc_msgs
+Description: Description of vesc_msgs
+Version: 0.0.1
+Cflags: -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include
+Libs: -L/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/lib 
+Requires: std_msgs message_runtime

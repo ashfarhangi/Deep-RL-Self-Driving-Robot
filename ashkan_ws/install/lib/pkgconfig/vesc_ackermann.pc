@@ -1,0 +1,8 @@
+prefix=/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/install
+
+Name: vesc_ackermann
+Description: Description of vesc_ackermann
+Version: 0.0.1
+Cflags: -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/install/include
+Libs: -L/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/install/lib 
+Requires: nodelet pluginlib roscpp nav_msgs std_msgs geometry_msgs tf ackermann_msgs vesc_msgs

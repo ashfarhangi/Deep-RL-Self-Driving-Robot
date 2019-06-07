@@ -1,0 +1,8 @@
+prefix=/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel
+
+Name: simulator
+Description: Description of simulator
+Version: 0.1.0
+Cflags: -I/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/include
+Libs: -L/home/ashkan/git/Deep-RL-Self-Driving-Robot/ashkan_ws/devel/lib 
+Requires: rospy sensor_msgs std_msgs geometry_msgs

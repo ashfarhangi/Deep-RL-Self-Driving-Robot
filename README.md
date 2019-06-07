@@ -20,12 +20,17 @@ $ rosdep update
 Add this changes to ~/.bashrc file:
 source /opt/ros/melodic/setup.bash
 source ~/catkin_ws/devel/setup.bash
-export ROS_MASTER_URI=http://192.168.0.151:11311
+2export ROS_MASTER_URI=http://192.168.0.151:11311
 export ROS_IP=192.168.0.151
 source ~/catkin_ws/devel/setup.bash
 
 
 Install gazebo_worlds package.   
+
+Also, you should update the ROS packages path.
+export ROS_PACKAGE_PATH=~/git/Deep-RL-Self-Driving-Robot/ashkan_ws/src
+
+
 For checking the model, you will only have to start the .launch file using the
 following command:     
 
