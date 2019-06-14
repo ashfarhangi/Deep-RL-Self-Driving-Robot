@@ -55,7 +55,7 @@ The robot’s knowledge of the last episode comes down into the observation of s
 Figure 2: Results of the experiment
 
 ## Books and Articles:
-[(1) Learning ROS for Robotics Programming - Second Edition](https://www.packtpub.com/hardware-and-creative/learning-ros-robotics-programming-second-edition)
+[(1) Learning ROS for Robotics Programming - Second Edition](https://www.packtpub.com/hardware-and-creative/learning-ros-robotics-programming-second-edition) .   
 (2)	Zamora, Iker, et al. "Extending the OpenAI Gym for robotics: a toolkit for reinforcement learning using ROS and Gazebo." arXiv preprint arXiv:1608.05742 (2016).
 ## Sources:
   For rapid setup of environment the following sources has been used:   
