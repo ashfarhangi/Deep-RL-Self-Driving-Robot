@@ -9,7 +9,7 @@ In recent years, there has been growing interest in Reinforcement Learning (RL),
 The robot that is being simulated in this experiment is Traxxas RC rally car (recommended model: Ford Fiesta ST), with the primary goal of driving autonomously 
 ![](robot.gif)  
 ## Architecture 
-In order to apply RL to the simulation, the architecture should consist of four main software blocks: Intel AI Lab’s Coach, RoboMaker API, ROS and Gazebo. Coach’s framework enables smoother implementation of OpenAI’s Gym environment for robotics application.
+In order to apply RL to the simulation, the architecture should consist of four main software blocks: Intel AI Lab’s Coach, RoboMaker API, ROS and Gazebo. Coach’s framework enables smoother implementation of OpenAI’s Gym environment for robotics application.    
 ![](Algorithm.PNG)
 ## Simulation of environment:
 ![RL_Demo.gif](RL_Demo.gif)     
