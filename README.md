@@ -34,25 +34,19 @@ The reward system holds the key to success in Q-Learning. For optimal results, i
 ![](Gif)
 If the distance of the robot to its target gets lower than its last distance then the reward function will get activated and the reward will be given by the following:
 ![]()
-As seen above, the closer the robot gets to target the more reward it will get. It should be kept in mind that the reward system stops for each of the following:
+As seen above, the closer the robot is to target the more reward it will get. It should be kept in mind that the reward system stops for each of the following:
 
-First, the robot’s distance to the target becomes larger than the fixed value. This will help the simulation to train the robot in a way that at all times stay within range of the target. 
+First, the robot’s distance to the target becomes larger than the fixed value. including the crashing. This will help the simulation to train the robot in a way that at all times stay within range of the target. 
 
-Distance to target> 5
+Distance to target > 5
 
-Second, the robot reaches the target and the maximum reward (250 points) is given. 
-
-   Distance to target <0.2
-
-Lastly,  since each action increases the step value, the simulation stops after the number of max steps is reached.
+Second,  since each action increases the step value, the simulation stops after the number of max steps is reached.
 ## Results:  
 The robot’s knowledge of the last episode comes down into the observation of states. To keep it simple, the robot will take action and receives a reward, this feedback is saved after each episode. Thus, the robot takes as many steps as possible, learning by observing states and actions it took to get the reward. 
 ## Evaluation
  The more reward the robot will have at end of each session shows that the better the model performs. However, this gives us a very limited understanding of how the system works and in what way tweaking parameter of source code helps the results.
-
-
- 
-Figure 2: Results of the experiment
+# Future Work: 
+Implementing LIDAR based reward system
 
 ## Books and Articles:
 [(1) Learning ROS for Robotics Programming - Second Edition](https://www.packtpub.com/hardware-and-creative/learning-ros-robotics-programming-second-edition) .   
