@@ -11,8 +11,8 @@ The robot that is being simulated in this experiment is Traxxas RC rally car (re
 ## Architecture 
 In order to apply RL to the simulation, the architecture should consist of four main software blocks: Intel AI Lab’s Coach, RoboMaker API, ROS and Gazebo. Coach’s framework enables smoother implementation of OpenAI’s Gym environment for robotics application.
 ![](My-Architecture.gif)
-## Simulation of real environment:
-![](Demo-Lab.gif)     
+## Simulation of environment:
+![RL_Demo.gif](Demo-Lab.gif)     
 
 ## Q-Learning 
 In robotics, Q-Learning offers an algorithm for the design of complex behaviors. The challenge is in creating a simple environment that the Q-Learning model can use to train, evaluate and test. In order to simplify the algorithm that is being used in RoboMaker, Q-function parameters should be examined first .
