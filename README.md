@@ -10,7 +10,7 @@ The robot that is being simulated in this experiment is Traxxas RC rally car (re
 ![](robot.gif)  
 ## Architecture 
 In order to apply RL to the simulation, the architecture should consist of four main software blocks: Intel AI Lab’s Coach, RoboMaker API, ROS and Gazebo. Coach’s framework enables smoother implementation of OpenAI’s Gym environment for robotics application.
-![](Algorithm.png)
+![](Algorithm.PNG)
 ## Simulation of environment:
 ![RL_Demo.gif](RL_Demo.gif)     
 
