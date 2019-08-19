@@ -1,6 +1,6 @@
 # Deep-RL-Self-Driving-Robot Documentation
 
-UCF HEC404 Lab: A deep reinforcement learning platform for self driving robots
+UCF HEC 404 Lab: A deep reinforcement learning platform for self driving robots
 
 ## Deep Reinforcement Learning for Robotics 
 In recent years, there has been growing interest in Reinforcement Learning (RL), where a machine learns to interact with an environment with the aim of achieving the maximum reward. Due to recent research that was done on Intel AI Lab’s Coach, implementing RL in robotics systems has gotten simpler and more robust. Nevertheless, this is limited by various factors such as complex environments and time-consuming training. The aim of this project is to give a comprehensive review of Q-Learning in Self Driving Cars.
